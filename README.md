@@ -12,10 +12,3 @@
 - Add, edit, and delete **expense for each Trip**
 - **Summarize and Split** Shared Expense For Each Member
 
-## Our Team
-
--  [@RyanKwa](https://github.com/RyanKwa) - Ryan Vieri Kwa 
--  [@evetungtung](https://github.com/evetungtung) - Evelin  
--  [@julyo11](https://github.com/julyo11) - Julyo 
--  [@tabbyfox](https://github.com/tabbyfox) - Suherda Dwi Santoso
--  [@jennifrv](https://github.com/jennifrv) - Jennifer Vianna
