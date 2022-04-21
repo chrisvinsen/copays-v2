@@ -1,4 +1,4 @@
-# COPAYS - Trip Expense Management
+# COPAYS V2 - Trip Expense Management
 
 **copays** is our first collaboration project in Apple Developer Academy Cohort 5 as **Mini Challenge 1**.
 
@@ -19,4 +19,3 @@
 -  [@julyo11](https://github.com/julyo11) - Julyo 
 -  [@tabbyfox](https://github.com/tabbyfox) - Suherda Dwi Santoso
 -  [@jennifrv](https://github.com/jennifrv) - Jennifer Vianna
-# copays-v2
