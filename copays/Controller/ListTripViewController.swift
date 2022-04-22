@@ -204,9 +204,9 @@ extension ListTripViewController: UITableViewDataSource, UITableViewDelegate{
     
     // Go to expense list screen
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if let vc = storyboard?.instantiateViewController(withIdentifier: "ExpenseList") as? ELViewController {
+        if let vc = UIStoryboard(name: "TransactionListScreen", bundle: nil).instantiateViewController(withIdentifier: "TransactionListViewController") as? TransactionListViewController {
             vc.indexTrip = indexPath.row
-            vc.tripName = tripList[indexPath.row].name
+            
             navigationController?.pushViewController(vc, animated: true)
         }
     }

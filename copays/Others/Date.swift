@@ -29,4 +29,14 @@ class CDate {
         let date = dateFormatter.date(from: string)!
         return date
     }
+    
+    class func toDateString(_ date: Date, format: String = "yyyy-MM-dd") -> String {
+        let dateFormatter = DateFormatter()
+
+        // Set Date Format
+        dateFormatter.dateFormat = format
+
+        // Convert Date to String
+        return dateFormatter.string(from: date)
+    }
 }

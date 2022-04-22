@@ -7,6 +7,11 @@
 
 import Foundation
 
+struct TransactionCategory {
+    var name: String
+    var image: String
+}
+
 class Transaction: Codable {
     var categoryIndex: Int
     var name: String

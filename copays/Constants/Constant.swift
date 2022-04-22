@@ -16,3 +16,4 @@ struct Constant {
         TransactionCategory(name: "Others", image: "ic_category_others"),
     ]
 }
+

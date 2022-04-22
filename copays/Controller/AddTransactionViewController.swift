@@ -179,6 +179,8 @@ class AddTransactionViewController: UIViewController {
         if let encodedUser = try? encoder.encode(tripList) {
             defaults.set(encodedUser, forKey: "TripList")
         }
+        
+        NotificationCenter.default.post(name: Notification.Name("ListenerDataChanged"), object: nil)
     }
     
     func vaidateInputForm() -> Bool {
@@ -195,7 +197,7 @@ class AddTransactionViewController: UIViewController {
     
     func prepareViewForEdit() {
         txFieldName.text = transaction!.name
-        txFieldAmount.text = String(transaction!.amount)
+        txFieldAmount.text = String(Int64(transaction!.amount))
         txDate.date = transaction!.date
         
         // Need to place before set default index 0 on "initView()"
