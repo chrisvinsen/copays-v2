@@ -176,6 +176,14 @@ class TransactionListViewController: UIViewController {
              present(navController, animated:true, completion: nil)
          }
     }
+    
+    @IBAction func btnViewSummaryOnClicked(_ sender: Any) {
+        if let vc = UIStoryboard(name: "SummaryScreen", bundle: nil).instantiateViewController(withIdentifier: "SummaryPage") as? SummaryViewController {
+            vc.indexTrip = indexTrip
+            
+            navigationController?.pushViewController(vc, animated: true)
+        }
+    }
 }
 
 

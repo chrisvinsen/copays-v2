@@ -26,7 +26,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Expense" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7uW-h3-tPj">
-                                <rect key="frame" x="16" y="127" width="106" height="21"/>
+                                <rect key="frame" x="16" y="83" width="106" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -183,24 +183,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aqP-ch-iQF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1050.7692307692307" y="794.78672985781986"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="dbQ-so-yWr">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="igs-V3-Aw6" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ahm-7s-F5a">
-                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="DaC-xA-EgY" kind="relationship" relationship="rootViewController" id="uGN-EN-qbH"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="49A-b2-t7i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="132" y="795"/>
         </scene>
     </scenes>
     <resources>
